@@ -1,0 +1,38 @@
+[
+    {
+        "Philadelphia": {
+            "medium": "4.2",
+            "low": "25",
+            "high": "400"
+        },
+        "Chicago": {
+            "medium": "10.4",
+            "low": "2.5",
+            "high": "30"
+        },
+        "Baltimore": {
+            "medium": "10.4",
+            "low": "2",
+            "high": "300"
+        },
+        "date": "2003"
+    },
+    {
+        "Philadelphia": {
+            "medium": "14.5",
+            "low": "2",
+            "high": "335"
+        },
+        "Chicago": {
+            "medium": "14.8",
+            "low": "2",
+            "high": "335"
+        },
+        "Baltimore": {
+            "medium": "30.4",
+            "low": "23",
+            "high": "600"
+        },
+        "date": "2024"
+    }
+]

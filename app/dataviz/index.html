@@ -1,0 +1,128 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Climate Change</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <style>
+
+            body {
+              font: 10px sans-serif;
+            }
+
+            .axis path,
+            .axis line {
+              fill: none;
+              stroke: #000;
+              shape-rendering: crispEdges;
+            }
+
+            .x.axis path {
+              display: none;
+            }
+
+            .line {
+              fill: none;
+              stroke: steelblue;
+              stroke-width: 1.5px;
+            }
+
+            .area {
+              fill: rgba(70, 130, 180, 1);
+              stroke: none !important;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="row vertBuffer20">
+            <input type="radio" name="radData" id="rad1" value="data1" checked="checked" onclick='change(data1);' />
+            <label for="rad1">Data1</label>
+
+            <input type="radio" name="radData" id="rad2" value="data2" onclick='change(data2);' />
+            <label for="rad2">Data2</label>
+            </br>
+            <div id='chartDiv'></div>
+        </div>
+
+        <!-- Add your site or application content here -->
+
+
+
+        <div id="g-graphic">
+
+            <div class="g-chart">
+                <svg id="chartsvg" height="570" width="1050px">
+                </svg>
+                <div class="tooltip" style="left: -9999px; top: -9999px;">
+                    <p class="g-weight">8.1 to 8.3 pounds</p>
+                    <p class="g-pctl">41st percentile</p>
+                </div>
+            </div>
+
+            <div class="g-nav">
+                <div class="g-educ-nav">
+                    <div class="g-list g-Education">
+                        <ul>
+                            <li data-code="0" data-demo="Education" class="g-demo">All education levels
+                                </li><li data-code="4" data-demo="Education" class="g-demo g-college">College graduate
+                                    </li><li data-code="3" data-demo="Education" class="g-demo selected">Some college
+                                        </li><li data-code="2" data-demo="Education" class="g-demo">High school graduate
+                                            </li><li data-code="1" data-demo="Education" class="g-demo">Not a high school graduate
+                        </li></ul>
+                    </div>
+                </div>
+
+
+
+                <div class="g-race-nav">
+                    <div class="g-list g-Race">
+                        <ul>
+                            <li data-code="0" data-demo="Race" class="g-demo">All races
+                                </li><li data-code="1" data-demo="Race" class="g-demo">White, non-Hispanic
+                                    </li><li data-code="2" data-demo="Race" class="g-demo selected">Black, non-Hispanic
+                                        </li><li data-code="3" data-demo="Race" class="g-demo">Asian, non-Hispanic
+                                            </li><li data-code="4" data-demo="Race" class="g-demo">Hispanic, regardless of race
+                        </li></ul>
+                    </div>
+                </div>
+
+                <div class="g-age-nav">
+                    <div class="g-list g-Age">
+                        <ul>
+                            <li data-code="0" data-demo="Age" class="g-demo selected">All ages
+                                </li><li data-code="1" data-demo="Age" class="g-demo g-young">Under age 20
+                                    </li><li data-code="2" data-demo="Age" class="g-demo">Age 20 to 29
+                                        </li><li data-code="3" data-demo="Age" class="g-demo">Age 30 to 35
+                                            </li><li data-code="4" data-demo="Age" class="g-demo">Age 36+
+                        </li></ul>
+                    </div>
+                </div>
+
+                <div class="g-explan">
+                    The effect of being heavier is similar across many different types of mothers.
+                </div>
+        <!--         <div class = "g-source">Source: David Figlio, Northwestern</p>
+         -->
+            </div>
+
+            <h1 class="blank">Blank</h1>
+
+        </div>
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+        <script src="main.js"></script>
+        <script src="nyt.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+    </body>
+</html>

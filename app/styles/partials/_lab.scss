@@ -1,0 +1,25 @@
+.indicator {
+  font-size: $font-size-h4;
+  border-bottom: 1px solid #eee;
+  &:last-child {
+
+  }
+}
+
+.indicators {
+  position: absolute;
+  left: 0;
+  width: 300px;
+  top: 50px;
+  bottom: 0;
+  overflow: auto;
+}
+
+.view {
+  background-color: #ddd;
+  position: absolute;
+  left: 300px;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+}
