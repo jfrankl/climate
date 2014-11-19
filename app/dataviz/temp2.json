@@ -1,19 +1,19 @@
 [
     {
         "Philadelphia": {
-            "medium": "4.2",
-            "low": "25",
-            "high": "400"
+            "medium": "200",
+            "low": "2",
+            "high": "200"
         },
         "Chicago": {
-            "medium": "10.4",
-            "low": "2.5",
-            "high": "30"
+            "medium": "0",
+            "low": "2",
+            "high": "200"
         },
         "Baltimore": {
-            "medium": "10.4",
+            "medium": "5",
             "low": "2",
-            "high": "300"
+            "high": "200"
         },
         "date": "2003"
     },
@@ -21,18 +21,54 @@
         "Philadelphia": {
             "medium": "14.5",
             "low": "2",
-            "high": "335"
+            "high": "200"
         },
         "Chicago": {
             "medium": "14.8",
             "low": "2",
-            "high": "335"
+            "high": "200"
         },
         "Baltimore": {
-            "medium": "30.4",
-            "low": "23",
-            "high": "600"
+            "medium": "15.4",
+            "low": "2",
+            "high": "100"
         },
-        "date": "2024"
+        "date": "2004"
+    },
+    {
+        "Philadelphia": {
+            "medium": "19.5",
+            "low": "2",
+            "high": "200"
+        },
+        "Chicago": {
+            "medium": "149.8",
+            "low": "2",
+            "high": "200"
+        },
+        "Baltimore": {
+            "medium": "110.4",
+            "low": "2",
+            "high": "200"
+        },
+        "date": "2005"
+    },
+    {
+        "Philadelphia": {
+            "medium": "26.5",
+            "low": "2",
+            "high": "200"
+        },
+        "Chicago": {
+            "medium": "156.8",
+            "low": "2",
+            "high": "200"
+        },
+        "Baltimore": {
+            "medium": "117.4",
+            "low": "2",
+            "high": "200"
+        },
+        "date": "2006"
     }
 ]

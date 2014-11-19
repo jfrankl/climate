@@ -3,17 +3,17 @@
         "Philadelphia": {
             "medium": "9.5",
             "low": "2",
-            "high": "300"
+            "high": "200"
         },
         "Chicago": {
             "medium": "9.8",
             "low": "2",
-            "high": "300"
+            "high": "200"
         },
         "Baltimore": {
             "medium": "10.4",
             "low": "2",
-            "high": "300"
+            "high": "200"
         },
         "date": "2003"
     },
@@ -31,7 +31,7 @@
         "Baltimore": {
             "medium": "15.4",
             "low": "2",
-            "high": "1000"
+            "high": "100"
         },
         "date": "2004"
     },
@@ -39,17 +39,17 @@
         "Philadelphia": {
             "medium": "19.5",
             "low": "2",
-            "high": "300"
+            "high": "200"
         },
         "Chicago": {
             "medium": "149.8",
             "low": "2",
-            "high": "300"
+            "high": "200"
         },
         "Baltimore": {
             "medium": "110.4",
             "low": "2",
-            "high": "300"
+            "high": "200"
         },
         "date": "2005"
     },
@@ -57,36 +57,18 @@
         "Philadelphia": {
             "medium": "26.5",
             "low": "2",
-            "high": "300"
+            "high": "200"
         },
         "Chicago": {
             "medium": "156.8",
             "low": "2",
-            "high": "300"
+            "high": "200"
         },
         "Baltimore": {
             "medium": "117.4",
-            "low": "-200",
-            "high": "300"
+            "low": "0",
+            "high": "200"
         },
         "date": "2006"
-    },
-    {
-        "Philadelphia": {
-            "medium": "41.5",
-            "low": "2",
-            "high": "300"
-        },
-        "Chicago": {
-            "medium": "171.8",
-            "low": "2",
-            "high": "300"
-        },
-        "Baltimore": {
-            "medium": "132.4",
-            "low": "2",
-            "high": "300"
-        },
-        "date": "2007"
     }
 ]
