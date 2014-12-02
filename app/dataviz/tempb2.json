@@ -1,0 +1,54 @@
+[
+    {
+        "Denver": {
+            "medium": "222",
+            "low": "2",
+            "high": "308"
+        },
+        "Jacksonville": {
+            "medium": "36.5",
+            "low": "2",
+            "high": "208"
+        },
+        "date": "2003"
+    },
+    {
+        "Denver": {
+            "medium": "242",
+            "low": "2",
+            "high": "308"
+        },
+        "Jacksonville": {
+            "medium": "236.5",
+            "low": "2",
+            "high": "400"
+        },
+        "date": "2004"
+    },
+    {
+        "Denver": {
+            "medium": "252",
+            "low": "2",
+            "high": "307"
+        },
+        "Jacksonville": {
+            "medium": "136.5",
+            "low": "2",
+            "high": "207"
+        },
+        "date": "2005"
+    },
+    {
+        "Denver": {
+            "medium": "212",
+            "low": "2",
+            "high": "320"
+        },
+        "Jacksonville": {
+            "medium": "36.5",
+            "low": "2",
+            "high": "400"
+        },
+        "date": "2006"
+    }
+]

@@ -18,7 +18,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-default" role="navigation">
+      <nav class="navbar" role="navigation">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -34,7 +34,7 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li class="active"><a href="#">Topics</a></li>
-              <li><a href="#">Lab</a></li>
+              <li><a href="#">Labs</a></li>
               <li><a href="#">Reports</a></li>
               <li><a href="#">Support</a></li>
             </ul>
@@ -66,45 +66,366 @@
     </header>
     <section class="indicators">
       <h2>Data</h2>
-      <h3>Precipitation</h3>
-      <div class="indicator">5 Day Rainfall</div>
-      <div class="indicator">Average Total Annual Precipitation</div>
-      <div class="indicator">Concecutive Dry Days</div>
-      <div class="indicator">Daily Rainfall</div>
-      <div class="indicator">Extremely Heavy 24-hr Precipitation Amount</div>
-      <div class="indicator">Largest 3-Day Precipitation Event</div>
-      <div class="indicator">Number of Dry Periods</div>
-      <div class="indicator">Number of Wet Days</div>
-      <div class="indicator">Total Precipitation</div>
-      <div class="indicator">Very Heavy 24-hr Precipitation Amount</div>
-      <div class="indicator">Wet Day Rainfall</div>
-      <div class="indicator">Wet Days </div>
-      <h3>Temperature</h3>
-      <div class="indicator">Average Low Temperature</div>
-      <div class="indicator">Coldest Temperature</div>
-      <div class="indicator">Number of Cold Nights</div>
-      <div class="indicator">Number of Frost Days</div>
-      <div class="indicator">Average High Temperature</div>
-      <div class="indicator">Cooling Degree Days</div>
-      <div class="indicator">Heat Wave Duration Index</div>
-      <div class="indicator">Heating Degree Days</div>
-      <div class="indicator">Hottest Temperature</div>
-      <div class="indicator">Number of Warm Days</div>
-      <div class="indicator">Average Annual Maximum Temperature</div>
-      <div class="indicator">Days above ___°F</div>
-      <div class="indicator">Days Below Freezing</div>
-      <div class="indicator">Times Temperatures Fluctuate around Freezing</div>
-      <div class="indicator">Average Temperature</div>
-      <div class="indicator">Extremely Cold Day Temperature</div>
-      <div class="indicator">Extremely Hot Day Temperature</div>
-      <div class="indicator">Highest 4-Day Average Summer Temperature</div>
-      <div class="indicator">Highest 7-Day Average Summer Temperature</div>
-      <div class="indicator">Lowest 4-Day Average Winter Temperatures</div>
-      <div class="indicator">Lowest 7-Day Average Winter Temperatures</div>
-      <div class="indicator">Consecutive Days above ___°F</div>
+      <h4>Precipitation</h4>
+      <div class="indicator">
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="btn btn-parameter"><i class="icon-cog"></i></div>
+            <div class="indicator-title">Extremely Heavy</div>
+          </div>
+        </div>
+        <div class="indicator-parameter">
+          <div class="indicator-parameter-body">
+            <h6>Number of Days</h6>
+            <input type="text">
+          </div>
+          <div class="indicator-parameter-footer">
+            <button class="btn btn-ghost" type="button">
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="indicator">
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="btn btn-parameter"><i class="icon-cog"></i></div>
+            <div class="indicator-title">Extremely Heavy 24-hour rainfall precipitation levels</div>
+          </div>
+        </div>
+        <div class="indicator-parameter">
+          <div class="indicator-parameter-body">
+            <h6>Number of Days</h6>
+            <input type="text">
+          </div>
+          <div class="indicator-parameter-footer">
+            <button class="btn btn-ghost" type="button">
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Extremely Heavy 24-hour rainfall precipitation levels</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">5 Day Rainfall</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Average Total Annual Precipitation</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Concecutive Dry Days</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Daily Rainfall</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Extremely Heavy 24-hr Precipitation Amount</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Largest 3-Day Precipitation Event</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Number of Dry Periods</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Number of Wet Days</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Total Precipitation</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Very Heavy 24-hr Precipitation Amount</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Wet Day Rainfall</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Wet Days </div>
+          </div>
+        </div>
+      </div>
+      <h4>Temperature</h4>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Average Low Temperature</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Coldest Temperature</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Number of Cold Nights</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Number of Frost Days</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Average High Temperature</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Cooling Degree Days</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Heat Wave Duration Index</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Heating Degree Days</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Hottest Temperature</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Number of Warm Days</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Average Annual Maximum Temperature</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Days above ___°F</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Days Below Freezing</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Times Temperatures Fluctuate around Freezing</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Average Temperature</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Extremely Cold Day Temperature</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Extremely Hot Day Temperature</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Highest 4-Day Average Summer Temperature</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Highest 7-Day Average Summer Temperature</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Lowest 4-Day Average Winter Temperatures</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Lowest 7-Day Average Winter Temperatures</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="indicator-wrapper">
+          <div class="indicator-header">
+            <div class="indicator-title">Consecutive Days above ___°F</div>
+          </div>
+        </div>
+      </div>
+
     </section>
     <section class="view">
-      &nbsp;
+      <nav class="view-nav">
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdown-location" data-toggle="dropdown" aria-expanded="true">
+            <span><i class="icon-globe"></i> Locations</span>
+            <span class="caret"></span>
+          </button>
+          <div class="dropdown-menu locations" role="menu" aria-labelledby="dropdown-location">
+            <h6>Location 1</h6>
+            <input type="text" value="Philadelphia, PA">
+            <h6>Location 2</h6>
+            <input type="text" value="Chicago, IL">
+            <h6>Location 3</h6>
+            <input type="text" value="Baltimore, MD">
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdown-model" data-toggle="dropdown" aria-expanded="true">
+            <span><i class="icon-docs"></i> RCP 4.5</span>
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-model">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdown-carbon" data-toggle="dropdown" aria-expanded="true">
+            <span><i class="icon-air"></i> Low B1</span>
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-carbon">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+          </ul>
+        </div>
+        <div class="navbar-right">
+          <button class="btn btn-ghost" type="button">
+            <i class="icon-map"></i>
+          </button>
+          <div class="dropdown">
+            <button class="btn btn-ghost" type="button" id="dropdown-options" data-toggle="dropdown" aria-expanded="true">
+              <i class="icon-dot-3"></i>
+            </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-options">
+              <li role="presentation"><a role="menuitem" tabindex="1" href="#">Print</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">View raw data</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="0" href="#">Add to report</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="lab-chart">
+        &nbsp;
+      </div>
+      <div class="legend">
+        <h4>Number of Dry Periods</h4>
+        <div class="legend-item">
+          <div class="legend-item-color" style="background-color: #ebcb32;"></div> Philadelphia, PA
+        </div>
+        <h4>Number of Dry Periods</h4>
+        <div class="legend-item">
+          <div class="legend-item-color" style="background-color: #818181;"></div> Chicago, IL
+        </div>
+        <h4>Number of Dry Periods</h4>
+        <div class="legend-item">
+          <div class="legend-item-color" style="background-color: #000000;"></div> Baltimore, MD
+        </div>
+      </div>
     </section>
 
     <!-- build:js(.) scripts/vendor.js -->

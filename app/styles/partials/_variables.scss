@@ -51,18 +51,19 @@ $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-base:        $font-family-sans-serif;
 
 $font-size-base:          14px;
-$font-size-large:         ceil(($font-size-base * 1.25)); // ~18px
-$font-size-small:         ceil(($font-size-base * 0.85)); // ~12px
+$modular-scale:           1.333;
+$font-size-large:         ceil(($font-size-base * $modular-scale)); // ~18px
+$font-size-small:         ceil(($font-size-base / $modular-scale)); // ~12px
 
-$font-size-h1:            floor(($font-size-base * 2.6)); // ~36px
-$font-size-h2:            floor(($font-size-base * 2.15)); // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.7)); // ~24px
-$font-size-h4:            ceil(($font-size-base * 1.25)); // ~18px
+$font-size-h1:            floor(($font-size-base * $modular-scale * $modular-scale * $modular-scale  * $modular-scale)); // ~36px
+$font-size-h2:            floor(($font-size-base * $modular-scale * $modular-scale * $modular-scale)); // ~30px
+$font-size-h3:            floor(($font-size-base * $modular-scale * $modular-scale)); // ~24px
+$font-size-h4:            floor(($font-size-base * $modular-scale)); // ~18px
 $font-size-h5:            $font-size-base;
-$font-size-h6:            ceil(($font-size-base * 0.85)); // ~12px
+$font-size-h6:            ceil(($font-size-base / $modular-scale)); // ~12px
 
 //** Unit-less `line-height` for use in components like buttons.
-$line-height-base:        1.428571429; // 20/14
+$line-height-base:        1.6; // 20/14
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
 $line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
 
@@ -107,7 +108,7 @@ $padding-xs-horizontal:     5px;
 $line-height-large:         1.33;
 $line-height-small:         1.5;
 
-$border-radius-base:        4px;
+$border-radius-base:        0;
 $border-radius-large:       6px;
 $border-radius-small:       3px;
 

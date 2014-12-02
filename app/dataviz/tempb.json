@@ -1,0 +1,94 @@
+[
+    {
+        "Denver": {
+            "medium": "222",
+            "low": "2",
+            "high": "300"
+        },
+        "Dover": {
+            "medium": "122",
+            "low": "-20",
+            "high": "420"
+        },
+        "Pittsburgh": {
+            "medium": "100",
+            "low": "50",
+            "high": "300"
+        },
+        "Jacksonville": {
+            "medium": "36.5",
+            "low": "2",
+            "high": "200"
+        },
+        "date": "2003"
+    },
+    {
+        "Denver": {
+            "medium": "222",
+            "low": "2",
+            "high": "300"
+        },
+        "Dover": {
+            "medium": "122",
+            "low": "-15",
+            "high": "420"
+        },
+        "Pittsburgh": {
+            "medium": "160",
+            "low": "55",
+            "high": "345"
+        },
+        "Jacksonville": {
+            "medium": "236.5",
+            "low": "2",
+            "high": "400"
+        },
+        "date": "2004"
+    },
+    {
+        "Denver": {
+            "medium": "242",
+            "low": "2",
+            "high": "300"
+        },
+        "Dover": {
+            "medium": "182",
+            "low": "-25",
+            "high": "420"
+        },
+        "Pittsburgh": {
+            "medium": "190",
+            "low": "24",
+            "high": "300"
+        },
+        "Jacksonville": {
+            "medium": "136.5",
+            "low": "2",
+            "high": "200"
+        },
+        "date": "2005"
+    },
+    {
+        "Denver": {
+            "medium": "222",
+            "low": "2",
+            "high": "300"
+        },
+        "Dover": {
+            "medium": "142",
+            "low": "-1",
+            "high": "520"
+        },
+        "Pittsburgh": {
+            "medium": "172",
+            "low": "-50",
+            "high": "320"
+        },
+        "Jacksonville": {
+            "medium": "36.5",
+            "low": "2",
+            "high": "400"
+        },
+        "date": "2006"
+    }
+]
