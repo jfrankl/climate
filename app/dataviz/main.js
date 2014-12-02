@@ -1,3 +1,5 @@
+'use strict';
+
 var d3Chart = {};
 
 d3Chart.create = function (el, data) {
